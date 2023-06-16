@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+
+  <head>
+
+    <title>Pegue o Coração</title>
+    <!-- relacionar com o javascript-->
+    <script src="jogo.js"></script>
+    <meta charset = 'utf-8'>
+    <!-- configurar o tamanho da tela-->
+
+    <style>
+        #tela {
+          width:500px;
+        }
+
+    </style>
+  </head>
+  <!-- iniciar o jogo ao carregar-->
+  <body onload = "iniciaJogo()">
+    
+    <!-- tela jogo-->
+    <div id = "tela"></div>
+  <!-- marcador de pontos-->
+  <div>
+    <strong>Pontos:</strong>
+    <span id= "pontos">0</span>
+  </div>
+  <!-- marcador de tempo-->
+<div>
+<strong>Tempo:</strong>
+    <span id= "tempo">10</span>
+segundos
+</div>
+  </body>
+  </html>
